@@ -1,0 +1,10 @@
+body{
+    background: url(../images/red.jpeg);
+    background-size: cover;
+}
+
+form{
+    position: relative;
+    text-align: center;
+    top: 50px;
+}

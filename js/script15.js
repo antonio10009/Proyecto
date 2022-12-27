@@ -1,0 +1,1 @@
+onclick="Eliminar(Location='eliminaruser.php?usu_codigo=<?php echo $row['usu_codigo']; ?>')"
