@@ -1,0 +1,33 @@
+*html{
+    background-color: black;
+}
+
+body{
+    width: 600px;
+    height: 650px;
+    background-color: gold;
+}
+
+header{
+    width: 1300px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+}
+
+section{
+    text-align: center;
+}
+
+nav{
+    font-family: monospace;
+}
+
+img{
+    border: 3px solid blue;
+}
