@@ -1,0 +1,22 @@
+#volver{
+    position: absolute;
+    left: 1225px;
+    top: 3px;
+    bottom: 1px;
+    background-color: rgb(47, 104, 209);
+    text-decoration: none;
+    font-weight: 550;
+    color: black;
+    padding: 2px 14px;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    border: solid 1.3px black;
+    z-index: 10;
+    box-sizing: content-box;
+    float: none;
+}
+
+#volver:hover{
+    color: white;
+}

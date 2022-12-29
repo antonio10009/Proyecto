@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.headerResultados{
+    margin-top: 10px;
+    width:80%;
+    border-radius: 5px;
+    box-shadow: 3px 2px 20px;
+    height:fit-content;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contenedor_resultados{
+    margin-top: 50px;
+    width:80%;
+    height:fit-content;
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    align-self: center;
+}
+
+.bttn-volver{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    height:fit-content;
+    width:fit-content;
+    background-color: brown;
+    color:antiquewhite;
+    align-self: center;
+    margin-right:5px;
+}
+#bodygeneral{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    background-image: url("../img/cliniclab.png");
+}
+.titulo_maniobra{
+    padding: 10px;
+    width:40%;
+    height:fit-content;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bttn-detalle{
+    cursor: pointer;
+    background-color: azure;
+    border-radius: 5px;
+    color:rgb(109, 13, 0);
+    padding: 5px;
+    margin: 5px;
+    float:right;
+}
+.pie-resultado{ 
+    width:100%;
+    background-color: rgb(182, 21, 0);
+    height:fit-content;
+    border-radius: 0px 0px 5px 5px;
+}
+.resultado{
+    box-shadow: 3px 2px 20px;
+    width:100%;
+    height:fit-content;
+    background-color: rgb(255, 133, 133);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.detalles_maniobra{
+    padding:10px;
+    margin-right: 20px;
+    width: 60%;
+    height: fit-content;
+    background-color:azure;
+}
+.contenedor-detalles{
+    display: flex;
+    flex-direction: row;
+}
+.detalle{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+}

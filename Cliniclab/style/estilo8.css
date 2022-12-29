@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(../img/Fondo.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+#header1{
+    position: relative;
+    margin-left: 20px;
+    top: -50px;
+    font-size: 20px;
+    color: white;
+}
+
+#health{
+    position: relative;
+    bottom: 100px;
+    right: 90px;
+}
+
+.menu{
+    width: 380px;
+    height: 340px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 0 30px;
+    border-radius: 12px;
+}
+
+.menu h1{
+    margin: 0px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.button1{
+    position: relative;
+    margin-top: 270px;
+    margin-left: 5px;
+    background-color: rgb(233, 79, 8);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.button1:hover{
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+    color: black;
+}
+
+.button2{
+    position: relative;
+    margin-top: 33px;
+    margin-left: 5px;
+    background-color: rgb(233, 79, 8);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.button2:hover{
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+    color: black;
+}
+
+.opciones{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+}
+
+.cerrar{
+    position: relative;
+    margin-left: 750px;
+    margin-top: 75px;
+    background-color: rgb(233, 79, 8);
+    padding: 10px 10px;
+    top: -10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.cerrar:hover{
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+    color: black;
+}

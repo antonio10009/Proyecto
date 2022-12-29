@@ -1,0 +1,80 @@
+html{
+    background-image: url(../img/fondocliniclab.jpg);
+}
+
+#header1{
+    position: relative;
+    margin-left: 190px;
+    top: 50px;
+    font-size: 32px;
+    color: white;
+}
+
+#health{
+    position: relative;
+    left: 15px;
+    top: -27px;
+}
+
+.tratamiento{
+    position: absolute;
+    left: 360px;
+    transform: translate(-50%, -50%);
+    top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.body{
+    background: white;
+    color: black;
+    width: 600px;
+    min-height: fit-content;
+    position: absolute;
+    padding: 60px;
+    margin-left: 340px;
+    margin-top: -45px;
+    border-radius: 8px;
+    background-image: url(../img/blanco.jpg);
+    background-repeat: no-repeat;
+    background-size: 880px;
+    border: black solid 2px;
+}
+
+.button1{
+    position: relative;
+    margin-top: 33px;
+    margin-left: 5px;
+    background-color: rgb(161, 20, 20);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.button1:hover{
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+    color: black;
+}
+.opciones{
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+}
+
+.atras{
+    position: relative;
+    margin-left: 370px;
+    margin-top: 400px;
+    background-color: rgb(161, 20, 20);
+    padding: 10px 10px;
+    top: -10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.atras:hover{
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+    color: black;
+}

@@ -1,0 +1,107 @@
+html{
+    background-image: url(../img/fondocliniclab.jpg);
+}
+
+#header1{
+    position: relative;
+    margin-left: 190px;
+    top: 50px;
+    font-size: 32px;
+    color: white;
+}
+
+#health{
+    position: relative;
+    left: 15px;
+    top: -27px;
+}
+
+.body{
+    background: white;
+    color: black;
+    width: 600px;
+    height: 310px;
+    position: absolute;
+    padding: 60px;
+    margin-left: 340px;
+    margin-top: -60px;
+    border-radius: 8px;
+    background-image: url(../img/blanco.jpg);
+    background-repeat: no-repeat;
+    background-size: 720px;
+    border: black solid 2px;
+}
+
+.don{
+    position: absolute;
+    left: 345px;
+    transform: translate(-50%, -50%);
+    top: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.des{
+    font-family: sans-serif;
+    line-height: 20px;
+}
+
+.dat{
+    font-size: 18px;
+}
+
+.donate{
+    position: relative;
+    margin-left: -145px;
+    top: 50px;
+    background-color: rgb(161, 20, 20);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.donate:hover{
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+    color: black;
+}
+
+#telefono{
+    position: relative;
+    top: -7px;
+}
+
+.atras{
+    position: relative;
+    margin-left: 570px;
+    top: 12px;
+    background-color: rgb(161, 20, 20);
+    padding: 10px 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.atras:hover{
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+    color: black;
+}
+
+.foot{
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 410px;
+    margin-left: 10px;
+    height: 55px;
+    width: 1330px;
+    background-color: rgb(190, 190, 190);
+    border: black solid 2px;
+}
+
+.contact{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 17px;
+}
