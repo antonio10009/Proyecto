@@ -1,0 +1,3 @@
+Solo tiene que abrir el archivo Index 6.html para visualizar la imagen del PixelArt.
+
+La carpeta PixelArt Cat esta el style de css.

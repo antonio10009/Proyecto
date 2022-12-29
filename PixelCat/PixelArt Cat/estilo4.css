@@ -1,0 +1,67 @@
+body{
+	width: 180px;
+	height: 180px;
+	margin: auto;
+}
+
+#Rosa{
+	background-color:pink;
+	width: 10px;
+	height: 10px;
+	float: left;
+}
+#Negro-Claro{
+	background-color: rgb(56,60,68);
+	width: 10px;
+	height: 10px;
+	float: left;
+}
+
+#Verde{
+	background-color:rgb(160,228,124);
+	width: 10px;
+	height: 10px;
+	float: left;
+}
+
+#Negro{
+	background-color:black;
+	width: 10px;
+	height: 10px;
+	float: left;
+}
+
+#Blanco{
+	background-color:white;
+	width: 10px;
+	height: 10px;
+	float: left;
+}
+
+#Rojo{
+	background-color:red;
+	width: 10px;
+	height: 10px;
+	float: left;
+}
+
+#Amarillo{
+  background-color: yellow;
+  width: 10px;
+  height: 10px;
+  float: left;
+}
+
+#Rosa-Oscura{
+  background-color: palevioletred;
+  width: 10px;
+  height: 10px;
+  float: left;
+}
+
+#Gris{
+  background-color: gray;
+  width: 10px;
+  height: 10px;
+  float: left;
+}
