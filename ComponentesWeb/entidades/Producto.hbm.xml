@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 02-06-2021 12:09:59 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entidades.Producto" table="producto" catalog="productos" optimistic-lock="version">
+        <id name="codigo" type="java.lang.Integer">
+            <column name="CODIGO" />
+            <generator class="identity" />
+        </id>
+        <many-to-one name="categoria" class="entidades.Categoria" fetch="select">
+            <column name="CATEGORIA_ID" not-null="true" />
+        </many-to-one>
+        <property name="nombre" type="string">
+            <column name="NOMBRE" length="50" />
+        </property>
+        <property name="precio" type="java.lang.Integer">
+            <column name="PRECIO" />
+        </property>
+        <property name="stock" type="java.lang.Integer">
+            <column name="STOCK" />
+        </property>
+        <set name="logs" table="log" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="PRODUCTO_CODIGO" not-null="true" />
+            </key>
+            <one-to-many class="entidades.Log" />
+        </set>
+        <set name="detalleVentas" table="detalle_venta" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="PRODUCTO_CODIGO" not-null="true" />
+            </key>
+            <one-to-many class="entidades.DetalleVenta" />
+        </set>
+    </class>
+</hibernate-mapping>
